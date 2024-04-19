@@ -18,8 +18,8 @@ const Navbar = () => {
         </div>
         <ul className="nav-menu">
             <li onClick={()=>{setMenu("shop")}}><Link style={{textDecoration: 'none'}} to ='/'>HOME</Link>{menu==="shop"?<hr/>:<></>}</li>
-            <li onClick={()=>{setMenu("bats")}}><Link style={{textDecoration: 'none'}} to ='/bats'>BATS</Link>{menu==="bats"?<hr/>:<></>}</li>
-            <li onClick={()=>{setMenu("balls")}}><Link style={{textDecoration: 'none'}} to ='/balls'>BALLS</Link>{menu==="balls"?<hr/>:<></>}</li>
+            <li onClick={()=>{setMenu("bats")}}><Link style={{textDecoration: 'none'}} to ='/bats'>Bats and Balls</Link>{menu==="bats"?<hr/>:<></>}</li>
+            <li onClick={()=>{setMenu("balls")}}><Link style={{textDecoration: 'none'}} to ='/balls'>Assesories</Link>{menu==="balls"?<hr/>:<></>}</li>
             <li onClick={()=>{setMenu("clothes")}}><Link style={{textDecoration: 'none'}} to ='/clothes'>CLOTHING</Link>{menu==="clothes"?<hr/>:<></>}</li>
         </ul>
         <div className="nav-login-cart">
@@ -34,6 +34,7 @@ const Navbar = () => {
 
 
 export default Navbar
+
 
 
 
