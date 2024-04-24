@@ -44,8 +44,8 @@ let new_collections = [
     old_price: 3000.00,
   },
   {
-    id: 2,
-    name: "Kis's starter kit",
+    id: 18,
+    name: "Kid's starter kit",
     image: p6_img,
     new_price: 4900.00,
     old_price: 6000.00,

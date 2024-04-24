@@ -8,8 +8,8 @@ import Product from './Pages/Product';
 import LoginSignup from './Pages/LoginSignup';
 import Cart from './Pages/Cart';
 import Footer from './Components/Footer/Footer';
-import bats_banner from './Components/Assets/bbbanner.png';
-import balls_banner from './Components/Assets/kitbanner.jpg'
+import bats_balls_banner from './Components/Assets/bbbanner.png';
+import Assesories_banner from './Components/Assets/kitbanner.jpg'
 import clothes_banner from './Components/Assets/clbanner.png'
 
 function App() {
@@ -19,8 +19,8 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path ='/' element ={<Shop/>}/>
-        <Route path ='/bats' element ={<ShopCategory banner ={bats_banner} category="bat"/>}/>
-        <Route path ='/balls' element ={<ShopCategory banner={balls_banner} category="ball"/>}/>
+        <Route path ='/batsandballs' element ={<ShopCategory banner ={bats_balls_banner} category="batandball"/>}/>
+        <Route path ='/assesories' element ={<ShopCategory banner={Assesories_banner} category="assesories"/>}/>
         <Route path ='/clothes' element ={<ShopCategory banner ={clothes_banner} category="clothe"/>}/>
         <Route path="/product" element ={<Product/>}>
           <Route path=':productId'  element={<Product/>}/>
@@ -37,3 +37,4 @@ function App() {
 }
 
 export default App;
+

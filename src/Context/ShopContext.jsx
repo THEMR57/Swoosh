@@ -41,7 +41,7 @@ const ShopContentProvider =(props) =>{
         
     }
 
-    const getTotalCartItems =()=>{
+    const getTotalCartItems = ()=>{
         let totalItem=0;
         for(const item in cartItems){
             if(cartItems[item]>0)
@@ -59,6 +59,4 @@ const ShopContentProvider =(props) =>{
         </ShopContext.Provider>
     )
 }
-
-
 export default ShopContentProvider
