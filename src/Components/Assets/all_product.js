@@ -118,7 +118,7 @@ let all_product = [
   },
   {
     id: 11,
-    name: "Elguard",
+    name: "Lguard",
     category: "assesories",
     image: p11_img,
     new_price: 550.00,
